@@ -1,0 +1,24 @@
+.card {
+    display: flex;
+    border-radius: var(--radius);
+    border: 1px solid var(--line);
+    padding: 18px 20px;
+
+    flex-direction: column;
+    gap: 8px;
+
+    font-size: 15px;
+    line-height: 1.75;
+    background: rgb(245, 242, 236);
+    color: var(--ink-mid);
+}
+
+.card--warn {
+    border: 1px solid var(--accent-bd);
+
+    background: var(--accent-bg);
+}
+
+.about-card {
+
+}

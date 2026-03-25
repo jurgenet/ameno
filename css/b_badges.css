@@ -1,0 +1,47 @@
+.badge {
+    border: 1px solid var(--line);
+    border-radius: var(--radius-sm);
+    padding: 4px 9px;
+
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    font-weight: 500;
+    background: var(--surface);
+    color: var(--ink-mid);
+}
+
+.stack-badge {
+    border-color: var(--blue-bd);
+    background: var(--blue-bg);
+    color: var(--blue);
+}
+
+.js-badge {
+    background: rgb(247, 223, 30);
+    color: black;
+}
+
+.ts-badge {
+    background: rgb(49, 120, 198);
+    color: white;
+}
+
+.vue-badge {
+    background: rgb(51, 160, 111);
+    color: white;
+}
+
+.quasar-badge {
+    background: rgb(0, 180, 255);
+    color: black;
+}
+
+.html-badge {
+    background: rgb(241, 101, 36);
+    color: white;
+}
+
+.css-badge {
+    background: rgb(38, 77, 228);
+    color: white;
+}
